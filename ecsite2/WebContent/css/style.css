@@ -1,0 +1,126 @@
+/* =======TAG LAYOUT======= */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background: #fff;
+}
+
+table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* =======ecsite LAYOUT======= */
+#top {
+	width: 780px;
+	margin: 30px auto;
+	border: 1px solid #333;
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	margin-bottom: 50px;
+}
+
+#main {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+
+#footer {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	margin-top: 50px;
+	clear: left;
+}
+
+#text-center {
+	display: inline-block;
+	text-align: center;
+}
+
+#text-link {
+	display: inline-block;
+	text-align: right;
+}
+
+#text-right {
+	display: inline-block;
+	text-align: right;
+}
+
+
+/* 管理画面トップ */
+#contents {
+	width: 560px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#contents h2 {
+	margin-left: 70px;
+	padding: 5px;
+	width: 100px;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+.item {
+	width: 250px;
+	height: 250px;
+	border: 1px solid #333;
+	float: left;
+}
+
+.user {
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid #333;
+	float: left;
+}
+
+/* 商品／ユーザー一覧 */
+.list table {
+	border-collapse: collapse;
+	border: solid 1px black;
+	cursor: default;
+}
+
+.list table th {
+	letter-spacing: 3px;
+	border: dashed 1px black;
+	padding: 5px 10px;
+	background-color: #ddd;
+}
+
+.list table td {
+	border: dashed 1px black;
+	padding: 5px 10px;
+}
+
+.list table tr {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.list table tr:hover {
+	background-color: #EEE;
+}
+
+/* 商品／ユーザー登録エラー文 */
+span.error-massage {
+	color: red;
+}
